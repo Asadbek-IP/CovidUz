@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CovidUz</string>
+    <string name="about_covid">COVID-19 yangi virus bo’lib,kuchli o\'tkir respirator sindromni va o\'tkir respirator virusli infektsiyaning (O’RVI) ba\'zi turlarini keltirib chiqaradigan viruslar oilasiga tegishlidir.</string>
+    <string name="yotal">Yo\'tal quruq yoki nam bo\'lishi mumkin.Uzoq muddatli yo\'tal.Ayrim hollarda yo\'talganda tomoqdan shilimshiq qon kelishi</string>
+    <string name="covid_detail">Koronavirus bu – respirator infektsiya, u oʼpkaning hozircha aniq davosi boʼlmagan kasalligini keltirib chiqaradi.</string>
+    <string name="covid_spreads">Viruslar aksirish yoki yoʼtalish paytida havoga chiqariladigan juda mayda tupuk tomchilari orqali yuqadi. Bundan tashqari, koronavirusni qattiq yuza – masalan eshik tutqichidan yuqtirish mumkin.</string>
+    <string name="covid_call">Koronavirus alomatlarini sezgan fuqaro xonadonidan chiqmasdan tez tibbiy yordam yoki poliklinika shifokoriga murojaat qiladi. Bundan tashqari, Sogʼliqni saqlash vazirligining 1003 qisqa raqamiga qoʼngʼiroq qilib, xabar berish kerak.</string>
+    <string name="OTM">Taʼtil qachongacha davom etishi hozircha maʼlum emas. Bu haqda hukumat darajasidagi komissiya qaror qiladi. Taʼtil degani togʼga chiqish, dam olish, Navroʼzni nishonlash degani emas. Bolalarimizni asrash kerak.</string>
+    <string name="covid_criminal">Ha. Аholi orasida vahima chiqarishga qaratilgan materiallarni tayyorlash yoki ularni tarqatish maqsadida saqlash 44 mln 600 ming soʼmdan 89 mln 200 ming soʼmgacha miqdorda jarima yoki 3 yilgacha axloq tuzatish ishlari yoxud 1 yildan 3 yilgacha ozodlikni cheklash yoki 3 yilgacha ozodlikdan mahrum qilish bilan jazolanadi.</string>
+</resources>

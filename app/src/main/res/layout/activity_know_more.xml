@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KnowMoreActivity"
+    >
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="5dp"
+        >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Koronavirus qanday kasallik?"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/gilroy_bold"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/txtSymptomsDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/covid_detail"
+
+                    android:textSize="14sp"
+                    android:fontFamily="@font/gilroy_light"
+                    android:textColor="@color/colorGray" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Koronavirus qanday yuqadi?"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/gilroy_bold"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/covid_spreads"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/gilroy_light"
+                    android:textColor="@color/colorGray" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="O'zida alomatni sezgan fuqoro qayerga \n murojaat qilishi kerak?"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/gilroy_bold"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/covid_call"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/gilroy_light"
+                    android:textColor="@color/colorGray" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karantin:maktab va OTM lardagi\n ta'til qachon tugaydi?"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/gilroy_bold"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/OTM"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/gilroy_light"
+                    android:textColor="@color/colorGray" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yolg'on ma'lumot tarqatganlar \n javobgarllikga tortiladimi?"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/gilroy_bold"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/covid_criminal"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/gilroy_light"
+                    android:textColor="@color/colorGray" />
+                <Button
+                    android:id="@+id/btnLearnMoree"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Ko'proq bilish "
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@color/colorDarkBlue"
+                    android:textAllCaps="false"
+                    android:textSize="11sp"
+                    android:fontFamily="@font/gilroy_bold"
+                    android:textColor="@color/colorWhite"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dasturchi: Asadbek Bekchanov"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/gilroy_light"
+                    android:textColor="@color/colorRed"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="95dp"
+                    />
+            </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+</ScrollView>
+

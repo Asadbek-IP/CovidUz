@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="@color/colorPrimary">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:layout_above="@+id/contGetStarted"
+         android:gravity="center"
+         >
+         <ImageView
+             android:layout_gravity="center"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:src="@drawable/splash_screen" />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="COVID-19"
+              android:textSize="30sp"
+               android:fontFamily="@font/gilroy_bold"
+              android:textColor="@color/colorWhite"
+              android:textAlignment="center"
+               android:layout_margin="5dp" />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/about_covid"
+              android:textSize="15sp"
+              android:fontFamily="@font/gilroy_light"
+              android:textColor="@color/colorWhite"
+              android:textAlignment="center"
+              android:layout_margin="5dp" />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Dasturga kirishdan oldin Internetga\n ulanganligini tekshiring"
+             android:textSize="15sp"
+             android:fontFamily="@font/gilroy_light"
+             android:textColor="@color/colorRed"
+             android:textAlignment="center"
+             android:layout_margin="5dp" />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Dasturchi Asadbek Bekchanov"
+             android:textSize="15sp"
+             android:fontFamily="@font/gilroy_light"
+             android:textColor="@color/colorRed"
+             android:textAlignment="center"
+             android:layout_margin="5dp" />
+
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/contGetStarted"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:padding="5dp"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:layout_marginBottom="20dp"
+         android:background="@drawable/shape"
+         android:gravity="center"
+         android:layout_alignParentBottom="true">
+          <TextView
+              android:layout_weight="1"
+              android:layout_marginLeft="15dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Boshlash"
+              android:textSize="17sp"
+              android:fontFamily="@font/gilroy_bold"
+              android:textColor="@color/colorPrimary" />
+              <ImageButton
+                  android:id="@+id/btnGo"
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+                  android:layout_margin="5dp"
+                  android:background="@color/colorPrimary"
+                  android:src="@drawable/ic_arrowdp"
+                  android:textSize="15sp"
+                  android:fontFamily="@font/gilroy_bold"
+                  android:textColor="@color/colorWhite" />
+
+     </LinearLayout>
+
+
+</RelativeLayout>
